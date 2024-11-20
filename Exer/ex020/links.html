@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: rgba(127, 255, 212, 0.301);
+            padding: 10px;
+        }
+
+        a {
+            color: black;
+        }
+        a:visited {color: blue;
+        text-decoration: none;
+        font-weight: bold;}
+        a:hover {
+            color: brown;
+            text-decoration: underline;
+        }
+        a::after, a::before {
+            content: ' *** ';
+            text-align: center;
+        }
+        /* Seletores
+        # id
+        . class
+        : pseudo class
+        :: pseudo element colocar antes ou depois algo
+        > filho
+        */
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/Taliz-Trajano"
+            target="_blank">Repositorio GitHub</a></li>
+        <li><a href="https://www.youtube.com/@tchouckouff" target="_blank">Canal Youtube</a></li>
+        <li><a href="https://exercism.org/docs/using/solving-exercises/working-locally" target="_blank" class="especial">site curso en video</a></li>
+    </ul>
+    
+</body>
+</html>

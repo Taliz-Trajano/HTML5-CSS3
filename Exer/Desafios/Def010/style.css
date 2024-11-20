@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+:root {
+    --cor0 : hsla(120, 48%, 68%, 0.781);
+    --cor1 : #4FAA4F;
+    --cor2 : #268026;
+    --cor3 : #0B550B;
+    --cor4 : #0B550B; }
+
+    @font-face {
+        font-family: drod;
+        src: url(fontes/idroid.otf);
+    }
+
+    .bebas-neue-regular {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      } 
+      * {
+        padding: 0px;
+        margin: 0px;
+      }     
+
+
+    header {
+        background-image: linear-gradient(to top, var(--cor3), var(--cor1));
+        color: white;
+        text-align: center;
+        font-family: "Bebas Neue", sans-serif;
+        padding: 20px;
+        margin: -8px;
+    }
+    nav {
+        background-color: #0B550B;
+        text-decoration: none;
+        padding: 3px;
+        margin: -2px;
+       
+    }
+    nav > a {
+        text-decoration: none;
+        color: white;
+        padding-left: 7px;
+    }
+    nav a:hover {
+        background-color: var(--cor1);
+        color: #000000;
+        border-radius: 3px;
+        
+    }
+    .imagen {
+        display: block;
+        margin: auto;
+        
+
+    }
+    main {
+        background-color: var(--cor1);
+        margin-bottom: 30px;
+        
+        
+    }
+    article {
+        box-shadow: 2px 2px 5px #000000;
+        background-color: white;
+        max-width: 800px;
+        min-width: 320px;
+        margin: auto;
+        padding: 20px;
+
+    }
+    h2, h3, h4 {
+        font-family: drod;
+        color: var(--cor4);
+        background-image: linear-gradient(to right, var(--cor1), transparent);
+        text-shadow: #00000057;
+        padding: 3px;
+        
+    }
+    article  p {
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        text-indent: 20px;
+        line-height: 2em;
+        text-indent: 20px;
+
+     }
+

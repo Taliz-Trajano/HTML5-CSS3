@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Círculo Cromático e Combinações de Cores</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .palette {
+            display: flex;
+            margin: 15px 0;
+            align-items: center;
+        }
+        .color-swatch {
+            width: 60px;
+            height: 60px;
+            margin-right: 10px;
+            border-radius: 5px;
+        }
+        .description {
+            max-width: 600px;
+        }
+        .complementary .color-swatch:nth-child(1) { background-color: #FF6347; }
+        .complementary .color-swatch:nth-child(2) { background-color: #4682B4; }
+        
+        .analogous .color-swatch:nth-child(1) { background-color: #FF4500; }
+        .analogous .color-swatch:nth-child(2) { background-color: #FF6347; }
+        .analogous .color-swatch:nth-child(3) { background-color: #FF7F50; }
+
+        .analogous-complementary .color-swatch:nth-child(1) { background-color: #FF4500; }
+        .analogous-complementary .color-swatch:nth-child(2) { background-color: #FF6347; }
+        .analogous-complementary .color-swatch:nth-child(3) { background-color: #FF7F50; }
+        .analogous-complementary .color-swatch:nth-child(4) { background-color: #4682B4; }
+
+        .related-interval .color-swatch:nth-child(1) { background-color: #32CD32; }
+        .related-interval .color-swatch:nth-child(2) { background-color: #9ACD32; }
+        .related-interval .color-swatch:nth-child(3) { background-color: #FFD700; }
+
+        .intercalated .color-swatch:nth-child(1) { background-color: #20B2AA; }
+        .intercalated .color-swatch:nth-child(2) { background-color: #FF6347; }
+        .intercalated .color-swatch:nth-child(3) { background-color: #9370DB; }
+
+        .triadic .color-swatch:nth-child(1) { background-color: #FF6347; }
+        .triadic .color-swatch:nth-child(2) { background-color: #32CD32; }
+        .triadic .color-swatch:nth-child(3) { background-color: #1E90FF; }
+
+        .square .color-swatch:nth-child(1) { background-color: #FF6347; }
+        .square .color-swatch:nth-child(2) { background-color: #32CD32; }
+        .square .color-swatch:nth-child(3) { background-color: #9370DB; }
+        .square .color-swatch:nth-child(4) { background-color: #FFD700; }
+
+        .tetradic .color-swatch:nth-child(1) { background-color: #FF4500; }
+        .tetradic .color-swatch:nth-child(2) { background-color: #FFD700; }
+        .tetradic .color-swatch:nth-child(3) { background-color: #4682B4; }
+        .tetradic .color-swatch:nth-child(4) { background-color: #32CD32; }
+
+        .monochromatic .color-swatch:nth-child(1) { background-color: #6B8E23; }
+        .monochromatic .color-swatch:nth-child(2) { background-color: #8FBC8F; }
+        .monochromatic .color-swatch:nth-child(3) { background-color: #98FB98; }
+        .monochromatic .color-swatch:nth-child(4) { background-color: #F0FFF0; }
+    </style>
+</head>
+<body>
+
+    <h1>Círculo Cromático e Combinações de Cores</h1>
+
+    <h2>1. Cores Complementares</h2>
+    <div class="palette complementary">
+        <div class="color-swatch"></div>
+        <div class="color-swatch"></div>
+        <div class="description">
+            Cores complementares são opostas no círculo cromático, criando um contraste forte e marcante.
+        </div>
+    </div>
+
+    <h2>2. Cores Análogas</h2>
+    <div class="palette analogous">
+        <div class="color-swatch"></div>
+        <div class="color-swatch"></div>
+        <div class="color-swatch"></div>
+        <div class="description">
+            Cores análogas são vizinhas no círculo cromático, trazendo harmonia e suavidade.
+        </div>
+    </div>
+
+    <h2>3. Paleta com Cores Análogas e Complementares</h2>
+    <div class="palette analogous-complementary">
+        <div class="color-swatch"></div>
+        <div class="color-swatch"></div>
+        <div class="color-swatch"></div>
+        <div class="color-swatch"></div>
+        <div class="description">
+            Uma combinação de três cores análogas e uma cor complementar, ideal para criar contraste em detalhes.
+        </div>
+    </div>
+
+    <h2>4. Cores Relacionadas com Intervalos</h2>
+    <div class="palette related-interval">
+        <div class="color-swatch"></div>
+        <div class="color-swatch"></div>
+        <div class="color-swatch"></div>
+        <div class="description">
+            Combinação de duas cores análogas, pulando uma para a próxima, trazendo mais contraste.
+        </div>
+    </div>
+
+    <h2>5. Cores Intercaladas</h2>
+    <div class="palette intercalated">
+        <div class="color-swatch"></div>
+        <div class="color-swatch"></div>
+        <div class="color-swatch"></div>
+        <div class="description">
+            Seleciona-se três cores com intervalos, criando uma paleta harmoniosa, mas com maior firmeza.
+        </div>
+    </div>
+
+    <h2>6. Cores Triádicas</h2>
+    <div class="palette triadic">
+        <div class="color-swatch"></div>
+        <div class="color-swatch"></div>
+        <div class="color-swatch"></div>
+        <div class="description">
+            Cores com três intervalos no círculo cromático, resultando em uma combinação vibrante e contrastante.
+        </div>
+    </div>
+
+    <h2>7. Cores em Quadrado</h2>
+    <div class="palette square">
+        <div class="color-swatch"></div>
+        <div class="color-swatch"></div>
+        <div class="color-swatch"></div>
+        <div class="color-swatch"></div>
+        <div class="description">
+            Seleciona-se quatro cores com dois intervalos, formando um quadrado e criando uma distribuição equilibrada.
+        </div>
+    </div>
+
+    <h2>8. Cores Tetrádicas</h2>
+    <div class="palette tetradic">
+        <div class="color-swatch"></div>
+        <div class="color-swatch"></div>
+        <div class="color-swatch"></div>
+        <div class="color-swatch"></div>
+        <div class="description">
+            Combinação de duas cores e suas opostas, trazendo um conjunto rico e visualmente interessante.
+        </div>
+    </div>
+
+    <h2>9. Monocromia</h2>
+    <div class="palette monochromatic">
+        <div class="color-swatch"></div>
+        <div class="color-swatch"></div>
+        <div class="color-swatch"></div>
+        <div class="color-swatch"></div>
+        <div class="description">
+            Consiste em usar uma única cor com variações de saturação e brilho, ideal para uma aparência coesa.
+        </div>
+    </div>
+
+</body>
+</html>

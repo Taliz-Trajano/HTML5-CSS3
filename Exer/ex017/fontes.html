@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes en CSS</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap'); /*google fonts*/
+
+        body { 
+            background-color: #dba3298c;
+            font-family:'Playfair Display'; /* tenta uma se nao tiver coloca outra*/
+            font-size: 1em;
+            font-weight: 100; /* nessa nao tem variaçao de peso e melhor pra usar o negrito*/
+            font-style: italic; /* essa font aceita italico*/
+            text-decoration: underline; /* pra colocar bara em baixo*/
+        }
+        h1 {
+             /*font-family: 'Courier New', Courier, monospace;
+            font-size: 2em;
+            font-weight: 400;
+            font-style: italic;
+             maneira mais rapida de fazer com menos linhas
+            *font-style -> font-weight -> font-size -> font-family
+            */
+            font: italic 400 2em 'Courier New';
+        }
+        /* medidas absolutas
+        cm, mn, in ou polegadas, px, pt, pc payc
+        16px geralmente e 1 em 
+        em e top porque e porcentagem do tamanho padrao
+        sempre nessa ordem
+
+
+        medidas relativas
+        em, ex, rem, vw, vh, %
+
+        em eo melhor 
+
+
+        peso da font
+        weight peso
+
+        */
+        /* safe combination css salva muto caso o dispositivo da pessoa nao ter a font principal*/
+        h2 {
+            font: italic 400 2em 'arial';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatem fuga quam tempore cum, iure iste, enim excepturi veniam dolore, expedita delectus. Temporibus placeat eos suscipit accusamus cumque vel sed!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatem fuga quam tempore cum, iure iste, enim excepturi veniam dolore, expedita delectus. Temporibus placeat eos suscipit accusamus cumque vel sed!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatem fuga quam tempore cum, iure iste, enim excepturi veniam dolore, expedita delectus. Temporibus placeat eos suscipit accusamus cumque vel sed!</p>
+    <h2>Subtitulo de exercicio</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid debitis nemo porro aspernatur! Consequatur nostrum quas praesentium rerum mollitia quasi assumenda alias eligendi, adipisci quisquam commodi veniam cumque. Quisquam, nisi?</p>
+    
+</body>
+</html>

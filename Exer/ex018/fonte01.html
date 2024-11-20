@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fontes externas</title>
+    <style>
+        @font-face {
+            font-family: lov;
+            src: url(fots/Cantona\ Zalone.otf) format(opentype);
+            font-weight: normal;
+            font-style:normal;
+            font-size: 500;
+            /*
+            tipos de formato 
+            opentype otf
+            truetype ttf
+            embedded-opentype
+            truetype-att 'apple advc typogrzphy'
+            dvg */
+            font-family: Gt;
+            src: url(GT-America/GT-America-Compressed-Regular-Trial.otf) format(opentype);
+
+        }
+        body {
+            font-family: lov, Courier, monospace;
+        }
+        h1 {
+            font-family: Gt;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ducimus labore nobis iure! Inventore aliquid voluptate praesentium voluptates impedit repellendus ea blanditiis dolor asperiores officia, magnam nemo expedita minima natus?</p>
+    
+</body>
+</html>

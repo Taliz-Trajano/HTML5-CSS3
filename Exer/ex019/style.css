@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body { background-color: #caab2f85;
+    font-family: 'Courier New', Courier, monospace;
+} /* em html e id = en css e #
+en html e class = en css e .
+*/
+h1 {
+    color: #1f1d15;
+    text-decoration: underline;
+    text-shadow: 2px 2px 3px #00000028;
+}
+h2 {
+    color: #181509;
+    text-shadow: 2px 2px 3px #00000028;
+    
+}
+#principal {
+    text-align: center;
+    background-color: #70684900;
+    color: rgb(82, 77, 8);
+    text-shadow: 1px 1px 2px #64530a56;
+}
+.Basico {
+    color: rgb(247, 247, 84);
+}
+.Intermediario {
+    color: rgb(167, 167, 57);
+}
+.Avançado {
+    color: rgb(88, 88, 27);
+}
+.destaque { 
+    background-color: rgb(167, 21, 21);
+}
+/* class serve pra usar sobre varios e id so um

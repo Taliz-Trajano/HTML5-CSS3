@@ -1,0 +1,26 @@
+Círculo Cromático
+O círculo cromático ajuda a combinar e harmonizar cores. Ele organiza as cores de forma que facilita a escolha de combinações equilibradas ou contrastantes, adequadas para diferentes tipos de designs e estilos.
+
+Paletas de Cor
+Uma paleta geralmente inclui de 3 a 5 cores, sendo 4 uma quantidade recomendada para maior versatilidade. É importante lembrar que preto e branco não são considerados parte do círculo cromático e, portanto, não entram na criação de paletas baseadas em cores.
+
+Tipos de Combinações Cromáticas
+Cores Complementares: São cores opostas no círculo cromático, criando um contraste forte e destacado. Esse contraste traz intensidade e faz com que as cores se realcem mutuamente.
+
+Cores Análogas: São cores vizinhas no círculo cromático e trazem harmonia e suavidade. Uma paleta análoga é ideal para criar uma sensação de unidade e continuidade visual.
+
+Paleta com Cores Análogas e Complementares: Uma maneira comum de criar uma paleta é escolher três cores análogas e uma cor complementar para o contraste, especialmente útil para destacar textos ou detalhes.
+
+Cores Relacionadas com Intervalos: Em vez de escolher três cores análogas diretas, seleciona-se duas cores análogas e pula-se uma no círculo para a próxima cor, criando uma paleta com um contraste mais forte e menos suavidade.
+
+Cores Intercaladas: Pula-se uma cor no círculo para escolher a seguinte, criando três cores com intervalos. Essa escolha resulta em uma paleta com cores mais firmes e contrastantes, mas ainda harmoniosas.
+
+Cores Triádicas: Para essa paleta, escolhe-se cores com três intervalos entre elas no círculo cromático, formando um triângulo. A combinação é vibrante e contrastante, mas pode parecer intensa e nem sempre é a mais recomendada por ser "bruta".
+
+Cores em Quadrado: Neste caso, selecionam-se quatro cores com dois intervalos entre cada uma, formando um quadrado no círculo cromático. Essa paleta oferece bastante contraste e uma distribuição equilibrada de cores, mas é indicada para designs mais dinâmicos.
+
+Cores Tetrádicas: Escolhem-se duas cores e suas opostas no círculo cromático. É uma combinação rica, porém mais difícil de equilibrar, já que envolve quatro cores em pares opostos.
+
+Monocromia: Consiste em usar uma única cor, variando sua saturação e brilho. Essa técnica cria uma paleta em degradê, ideal para um visual coeso e sofisticado.
+
+
