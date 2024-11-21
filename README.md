@@ -1,7 +1,3 @@
-Voici une version courte et simple :  
-
----
-
 # 👨‍💻 Mon apprentissage du développement web  
 
 Bonjour ! Je m'appelle **Talison** et je commence à apprendre **HTML5** et **CSS3**. Ce dépôt contient mes premiers projets et exercices pour m'entraîner et progresser.  
