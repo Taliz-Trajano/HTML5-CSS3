@@ -8,7 +8,7 @@ Bonjour ! Je m'appelle **Talison** et je commence à apprendre **HTML5** et **
 
 ## 📂 Contenu  
 - **index.html** : Ma première page web.  
-- **style.css** : Mes premiers styles.  
+- **style.css** : Mes premiers styles.
 
 Merci de suivre mon évolution ! 😊  
 
