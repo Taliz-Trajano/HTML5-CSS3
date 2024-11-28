@@ -24,6 +24,8 @@
   }
     
     * {
+      
+      
         padding: 0px;
         margin: 0px;
         font-size: 1em;
@@ -59,7 +61,7 @@
         text-align: center;
         background-color: black;
         color: white;
-        padding-bottom: 50px;
+        padding-bottom: 60px;
         font-size: 1em;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         
@@ -71,63 +73,171 @@
         font-family: "Sriracha", serif;
         font-weight: 400;
         font-style: normal;
-        width: 350px;
         font-family: texto 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        max-height: 70vh;
        
     }
 
    div > p {
-    margin: 10px;
-    background-color: aqua;
-    width: 300px;
-    height: 350px;
-    padding: 20px;
+    margin: 10px 0px 20px 10px;
+    padding: 40px 10px 40px 15px;
     text-align: justify;
     font-size: 1.4em;
+    font-size-adjust: calc(0.5);
+    display: block;
+    box-sizing: calc(0.8);
+    line-height: -2em;
+  
     
+  
+   }
+   #conteiner {
     
+    background-color: rgba(252, 252, 252, 0.5);
+    background-size: 100% 100%;
+    height: 75vh;
+
+    position: relative;
 
    }
-   #q1 {
-    background-color: rgb(255, 255, 255);
-    width: 300px;
-    height: 350px;
-    padding: 20px;
-    text-align: justify;
-    font-size: 1.4em;
-    margin: 20px;
-    
+   #conteudo1 {
+    background-color: #ffffff;
+    position: absolute;
+
+    left: -10%;
+    right: 50%;
+    transform: translate(20%, 8%);
+  
 
    }
-   #dos1 {
+   div {
+
+    height: 95vh;
+   }
+   #dos2 {
     background-image: url(imagens/background001.jpg);
+    background-attachment: fixed;
+    background-position: left center;
+    
+    background-color: rgba(252, 252, 252, 0.5);
+    background-size: 100% 100%;
+    height: 75vh;
 
-    height: 98vh;
-
-
+    position: relative;
 
    }
    #q2 {
+    color: #ffffff;
+    background-color: #0201012c;
+    position: absolute;
+
+    left: -10%;
+    right: 50%;
+    transform: translate(20%, 8%);
+  
+
+   }
+   #dos3 {
     
+    background-color: rgba(252, 252, 252, 0.5);
+    background-size: 100% 100%;
+    height: 75vh;
+
+    position: relative;
 
    }
    #q3 {
+    background-color: #ffffff;
+    position: absolute;
+
+    left: -10%;
+    right: 50%;
+    transform: translate(20%, 8%);
+  
+   }
+   #dos4 {
     
+    background-color: rgba(252, 252, 252, 0.5);
+    background-size: 100% 100%;
+    height: 75vh;
+
+    position: relative;
+
    }
    #q4 {
+    background-color: #ffffff;
+    position: absolute;
+
+    left: -10%;
+    right: 50%;
+    transform: translate(20%, 8%);
+  
+
+   }
+   #dos5 {
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left center;
     
+    background-color: rgba(252, 252, 252, 0.5);
+    background-size: 100% 100%;
+    height: 75vh;
+
+    position: relative;
+
    }
    #q5 {
-    background-image: url(imagens/background002.jpg);
+    color: #ffffff;
+    background-color: #0201012c;
+    position: absolute;
+
+    left: -10%;
+    right: 50%;
+    transform: translate(20%, 8%);
+   }
+   #dos6 {
     
+    background-color: rgba(252, 252, 252, 0.5);
+    background-size: 100% 100%;
+    height: 75vh;
+
+    position: relative;
+
    }
    #q6 {
-    
-   }
-   #q7 {
-    
+    background-color: #ffffff;
+    position: absolute;
+
+    left: -10%;
+    right: 50%;
+    transform: translate(20%, 8%);
    }
 
+   #dos7 {
+    
+    background-color: rgba(252, 252, 252, 0.5);
+    background-size: 100% 100%;
+    height: 75vh;
+
+    position: relative;
+   }
+
+   #q7 {
+    background-color: #ffffff;
+    position: absolute;
+
+    left: -10%;
+    right: 50%;
+    transform: translate(20%, 8%);
+   }
+
+
+
+
+  
+
+  
 
     
        
