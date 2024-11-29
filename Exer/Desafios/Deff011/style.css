@@ -33,15 +33,57 @@
       color: white;    
       padding: 60px 0px 60px 0px; 
     }
-      section.normal { 
-        background-color: rgba(25, 39, 23, 0.541); 
+    h1 {
+      font-size: 3em;
+      font-family: "Passion One", serif;
+    font-weight: 400;
+    font-style: normal;
+  
+    }
+    #começo > a {
+      text-decoration: none;
+      color: white;
+     font-weight: bolder;
+     
+    } 
+    #começo > a:hover {
+      text-decoration: underline;
+    }
+    
+    section.normal { 
+        background-color: #1927178a; 
         color: white; 
+        font-family: "Sriracha", serif;
+        font-weight: 400;
+        font-style: normal;
       }
-      section.imagen { 
+    section.imagen { 
         background-color: black; 
         color: azure;
+        font-family: "Sriracha", serif;
+        font-weight: 400;
+        font-style: normal;
       }
+    section {
+        padding: 10px;
+     }
 
+
+
+
+
+
+
+
+
+
+     footer > p {
+      padding: 5px;
+      background-color: black;
+      color: white;
+      text-align: center; 
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     }
 
     
   
