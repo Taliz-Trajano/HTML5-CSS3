@@ -58,8 +58,8 @@
     }
     
     section.normal { 
-        background-color: #1927178a; 
-        color: white; 
+        background-color: #ffffff8a; 
+        color: rgb(0, 0, 0); 
         font-family: var(--font2);
         font-weight: 400;
         font-style: normal;
@@ -68,7 +68,13 @@
         background-color: rgb(167, 165, 165); 
         color: azure;
         font-family: var(--font2);
-        display: inline-block;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-attachment: fixed;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.322);
+        box-shadow: inset 4px 6px 7px #0000008a;
+     
 
       }
     section {
@@ -77,8 +83,18 @@
         font-size: 4vw;
      }
      section.imagen > p {
-      background-color: rgba(0, 0, 0, 0.301);
+      background-color: #0000004d;
       padding: 5vh 5vh 5vh 5vh;;
+      display: inline-block;
+      
+     }
+
+     #img1  {
+      background-image: url(imagens/background001.jpg);
+      
+     }
+     #img2 {
+      background-image: url(imagens/background002.jpg);
      }
 
 
