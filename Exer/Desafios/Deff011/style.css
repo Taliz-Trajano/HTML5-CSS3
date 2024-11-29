@@ -21,6 +21,12 @@
     font-family: "Passion One", serif;
     font-weight: 900;
     font-style: normal;
+    
+  }
+  :root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: "Sriracha", serif;
+    --font3: "Passion One", serif;
   }
     
     * { padding: 0px; margin: 0px; font-size: 1em; }
@@ -31,41 +37,48 @@
       background-color: black; 
       text-align: center;  
       color: white;    
-      padding: 60px 0px 60px 0px; 
+      padding: 50px 0px 50px 0px; 
     }
     h1 {
-      font-size: 3em;
-      font-family: "Passion One", serif;
-    font-weight: 400;
-    font-style: normal;
+      font-size: 15vw;
+      font-family: var(--font3);
+       font-weight: 400;
+      font-style: normal;
+      font-variant: small-caps;
   
     }
-    #começo > a {
+    a {
       text-decoration: none;
       color: white;
      font-weight: bolder;
      
     } 
-    #começo > a:hover {
+    a:hover {
       text-decoration: underline;
     }
     
     section.normal { 
         background-color: #1927178a; 
         color: white; 
-        font-family: "Sriracha", serif;
+        font-family: var(--font2);
         font-weight: 400;
         font-style: normal;
       }
     section.imagen { 
-        background-color: black; 
+        background-color: rgb(167, 165, 165); 
         color: azure;
-        font-family: "Sriracha", serif;
-        font-weight: 400;
-        font-style: normal;
+        font-family: var(--font2);
+        display: inline-block;
+
       }
     section {
-        padding: 10px;
+        padding: 10vh 5vh 10vh 5vh;
+        line-height: 2em;
+        font-size: 4vw;
+     }
+     section.imagen > p {
+      background-color: rgba(0, 0, 0, 0.301);
+      padding: 5vh 5vh 5vh 5vh;;
      }
 
 
@@ -82,7 +95,7 @@
       background-color: black;
       color: white;
       text-align: center; 
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-family: var(--font1);
      }
 
     
