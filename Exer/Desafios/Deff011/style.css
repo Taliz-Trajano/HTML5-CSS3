@@ -23,221 +23,25 @@
     font-style: normal;
   }
     
-    * {
-      
-      
-        padding: 0px;
-        margin: 0px;
-        font-size: 1em;
+    * { padding: 0px; margin: 0px; font-size: 1em; }
+
+    html, body { background-color: aliceblue; min-height: 100%;}
+
+    header { 
+      background-color: black; 
+      text-align: center;  
+      color: white;    
+      padding: 60px 0px 60px 0px; 
     }
+      section.normal { 
+        background-color: rgba(25, 39, 23, 0.541); 
+        color: white; 
+      }
+      section.imagen { 
+        background-color: black; 
+        color: azure;
+      }
 
-    header > h1 {
-        font-family: "Passion One", serif;
-        font-weight:400;
-        font-style: bold;
-        text-align: center;
-        color: white;
-        background-color: black;
-        text-decoration: none;
-        padding: 40px 25px 5px 25px;
-        font-size:  4em;
-        
 
-    }
-    p > a {
-        font-family: "Passion One", serif;
-        font-weight: 400;
-        font-style: bold;
-        text-align: center;
-        text-decoration: none;
-        color: white;
-        text-align: center ;
-    }
-    a:hover {
-        text-decoration: underline;
-    }
-
-    header > p {
-        text-align: center;
-        background-color: black;
-        color: white;
-        padding-bottom: 60px;
-        font-size: 1em;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        
-    }
-
-    main {
-    
-    
-        font-family: "Sriracha", serif;
-        font-weight: 400;
-        font-style: normal;
-        font-family: texto 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        max-height: 70vh;
-       
-    }
-
-   div > p {
-    margin: 10px 0px 20px 10px;
-    padding: 40px 10px 40px 15px;
-    text-align: justify;
-    font-size: 1.4em;
-    font-size-adjust: calc(0.5);
-    display: block;
-    box-sizing: calc(0.8);
-    line-height: -2em;
-  
     
   
-   }
-   #conteiner {
-    
-    background-color: rgba(252, 252, 252, 0.5);
-    background-size: 100% 100%;
-    height: 75vh;
-
-    position: relative;
-
-   }
-   #conteudo1 {
-    background-color: #ffffff;
-    position: absolute;
-
-    left: -10%;
-    right: 50%;
-    transform: translate(20%, 8%);
-  
-
-   }
-   div {
-
-    height: 95vh;
-   }
-   #dos2 {
-    background-image: url(imagens/background001.jpg);
-    background-attachment: fixed;
-    background-position: left center;
-    
-    background-color: rgba(252, 252, 252, 0.5);
-    background-size: 100% 100%;
-    height: 75vh;
-
-    position: relative;
-
-   }
-   #q2 {
-    color: #ffffff;
-    background-color: #0201012c;
-    position: absolute;
-
-    left: -10%;
-    right: 50%;
-    transform: translate(20%, 8%);
-  
-
-   }
-   #dos3 {
-    
-    background-color: rgba(252, 252, 252, 0.5);
-    background-size: 100% 100%;
-    height: 75vh;
-
-    position: relative;
-
-   }
-   #q3 {
-    background-color: #ffffff;
-    position: absolute;
-
-    left: -10%;
-    right: 50%;
-    transform: translate(20%, 8%);
-  
-   }
-   #dos4 {
-    
-    background-color: rgba(252, 252, 252, 0.5);
-    background-size: 100% 100%;
-    height: 75vh;
-
-    position: relative;
-
-   }
-   #q4 {
-    background-color: #ffffff;
-    position: absolute;
-
-    left: -10%;
-    right: 50%;
-    transform: translate(20%, 8%);
-  
-
-   }
-   #dos5 {
-    background-image: url(imagens/background002.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: left center;
-    
-    background-color: rgba(252, 252, 252, 0.5);
-    background-size: 100% 100%;
-    height: 75vh;
-
-    position: relative;
-
-   }
-   #q5 {
-    color: #ffffff;
-    background-color: #0201012c;
-    position: absolute;
-
-    left: -10%;
-    right: 50%;
-    transform: translate(20%, 8%);
-   }
-   #dos6 {
-    
-    background-color: rgba(252, 252, 252, 0.5);
-    background-size: 100% 100%;
-    height: 75vh;
-
-    position: relative;
-
-   }
-   #q6 {
-    background-color: #ffffff;
-    position: absolute;
-
-    left: -10%;
-    right: 50%;
-    transform: translate(20%, 8%);
-   }
-
-   #dos7 {
-    
-    background-color: rgba(252, 252, 252, 0.5);
-    background-size: 100% 100%;
-    height: 75vh;
-
-    position: relative;
-   }
-
-   #q7 {
-    background-color: #ffffff;
-    position: absolute;
-
-    left: -10%;
-    right: 50%;
-    transform: translate(20%, 8%);
-   }
-
-
-
-
-  
-
-  
-
-    
-       
