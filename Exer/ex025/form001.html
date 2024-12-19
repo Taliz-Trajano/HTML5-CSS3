@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>formulario</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
 </head>
 <body>
-    <h1>MEu primeiro formulario</h1>
+    <h1>Meu primeiro formulario</h1>
+    <form action="cadrasto.php" autocomplete="off">
+        <p><label for="inome">nome:</label>
+             <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">sobrenome:</label>
+            <input type="text" name="nome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
     
 </body>
 </html>
