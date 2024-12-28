@@ -7,14 +7,15 @@
 </head>
 <body>
     <h1>Teste de formulario</h1>
-    <form action="cadrasto.php" method="post">
+    <form action="cadrasto.php" method="post" autocomplete="on">
         <p>
             <label for="iusu"> Usuario: </label>
-            <input type="text" name="usu" id="iusu" required>
+            <input type="text" name="usu" id="iusu" required minlength="5" size="10" maxlength="15" placeholder="nome do Usuario" autocomplete="username">
         </p>
         <p>
             <label for="isen">Senha:</label>
-            <input type="password" name="senha" id="isen" required>
+            <input type="password" name="senha" id="isen" required maxlength="15" size="10"
+            placeholder="senha do Usuario" autocomplete="current-password">
         </p>
         <input type="submit" value="Enviar">
         <input type="reset" value="Limpar">
